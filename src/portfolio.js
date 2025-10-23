@@ -115,7 +115,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Shiv Nadar University, Chennai",
-      logo: require("./assets/images/harvardLogo.png"),
+      logo: require("./assets/images/shivNadarUniversityChennaiLogo.jpg"),
       subHeader: "Bachelor of Technology in Artificial Intelligence and Data Science",
       duration: "2021 - 2025",
       desc: "Graduated First Class with Distinction as part of the Founding Batch. GPA: 8.93/10.00",
@@ -156,7 +156,7 @@ const workExperiences = {
     {
       role: "Software Development Engineer",
       company: "Linarc Inc.",
-      companylogo: require("./assets/images/facebookLogo.png"),
+      companylogo: require("./assets/images/linarcLogo.png"),
       date: "October 2025 – Present",
       desc: "Building production-grade scalable applications for Construction Management as part of the Full-Stack team.",
       descBullets: [
@@ -168,7 +168,7 @@ const workExperiences = {
     {
       role: "Software Engineer Intern - Technical Support",
       company: "Motorq",
-      companylogo: require("./assets/images/facebookLogo.png"),
+      companylogo: require("./assets/images/motorqLogo.png"),
       date: "June 2025 – September 2025",
       desc: "Built scalable systems and automation tools to improve reliability and operational efficiency.",
       descBullets: [
@@ -182,7 +182,7 @@ const workExperiences = {
     {
       role: "AI Intern - Academic Trainee",
       company: "HCLTech",
-      companylogo: require("./assets/images/quoraLogo.png"),
+      companylogo: require("./assets/images/hclTechLogo.jpg"),
       date: "May 2024 – July 2024",
       desc: "Developed AI models and automated testing solutions for code analysis and quality improvement.",
       descBullets: [
@@ -193,7 +193,7 @@ const workExperiences = {
     {
       role: "Summer Intern",
       company: "NEC Corporation India Pvt. Ltd.",
-      companylogo: require("./assets/images/airbnbLogo.png"),
+      companylogo: require("./assets/images/necLogo.png"),
       date: "May 2023 – July 2023",
       desc: "Created data visualization dashboards and AI-powered document processing tools.",
       descBullets: [
@@ -219,7 +219,7 @@ const bigProjects = {
   subtitle: "SOME OF MY RECENT PERSONAL PROJECTS",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
+      image: require("./assets/images/staySphereLogo.jpg"),
       projectName: "StaySphere - Hotel Booking App",
       projectDesc: "Full-stack MERN booking platform with authentication, admin panel, dynamic listings, and LLM-powered recommendation engine using booking history",
       footerLink: [
@@ -230,7 +230,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
+      image: require("./assets/images/urlShortenerLogo.jpg"),
       projectName: "URL Shortener",
       projectDesc: "Production-grade NPM package for one-line URL shortening with analytics & TypeScript support. Reduced integration time from hours to 30s via zero-config shared MongoDB Atlas setup",
       footerLink: [
@@ -261,7 +261,7 @@ const achievementSection = {
       title: "NPTEL Social Networks - Top 5% in India",
       subtitle:
         "Scored 86/100 and ranked in the Top 5% nationwide in NPTEL's Social Networks certification course",
-      image: require("./assets/images/codeInLogo.webp"),
+      image: require("./assets/images/nptelLogo.jpeg"),
       imageAlt: "NPTEL Logo",
       footerLink: [
         {
@@ -274,7 +274,7 @@ const achievementSection = {
       title: "CodeChef 2-Star Problem Solver",
       subtitle:
         "Achieved 2-Star rating on CodeChef with highest rating of 1489, solving complex algorithmic problems",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+      image: require("./assets/images/codeChefLogo.jpeg"),
       imageAlt: "CodeChef Logo",
       footerLink: [
         {
@@ -287,7 +287,7 @@ const achievementSection = {
     {
       title: "LeetCode Problem Solver",
       subtitle: "Solved 100+ problems with a rating of 1550, demonstrating strong algorithmic and data structure skills",
-      image: require("./assets/images/pwaLogo.webp"),
+      image: require("./assets/images/leetCodeLogo.png"),
       imageAlt: "LeetCode Logo",
       footerLink: [
         {
