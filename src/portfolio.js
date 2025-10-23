@@ -23,10 +23,10 @@ const greeting = {
   username: "Srivatsan Srinivasan",
   title: "Hi all, I'm Srivatsan",
   subTitle: emoji(
-    "Full-stack developer skilled in scalable systems, DevOps, and AI/ML🚀 with experience building production-grade applications using React, Next.js, Node.js, Python, and modern cloud technologies."
+    "Software Development (Full-Stack) Engineer at Linarc 🚀 | Skilled in scalable systems, DevOps, and AI/ML Engineering"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1HfhjVeYWx56JBKi6ABePUtkqpwdn4oGH/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -153,6 +153,18 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
+    {
+      role: "Software Development Engineer",
+      company: "Linarc Inc.",
+      companylogo: require("./assets/images/facebookLogo.png"),
+      date: "October 2025 – Present",
+      desc: "Building production-grade scalable applications for Construction Management as part of the Full-Stack team.",
+      descBullets: [
+        "Building scalable applications using Django, VueJS, ReactJS, PostgreSQL and AWS",
+        "Developing use cases for Construction Management workflows",
+        "Working on full-stack features for enterprise-grade solutions"
+      ]
+    },
     {
       role: "Software Engineer Intern - Technical Support",
       company: "Motorq",
